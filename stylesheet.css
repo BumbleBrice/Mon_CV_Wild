@@ -1,0 +1,136 @@
+* { /* Réinitialisation navigateur*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font: 64% arial, sans-serif; /* pour normalisé la taille de mes font */
+    font-family: 'Baloo Chettan', cursive;
+  /*  color: #323232;*/
+}
+img {
+    max-width: 100%; /* pour que mes images soit de la taille de leur bloc parents*/
+}
+h1, h2, h3 {
+    color: #fff;
+}
+h1 {
+    font-size: 3.2rem;
+    text-align: center;
+}
+h2 {
+    font-size: 2.5rem;
+    padding: 2%;
+    text-align: center;
+    color: black;
+}
+h3 {
+    font-size: 1.3rem;
+}
+body {
+    background :rgb(104, 184, 285);
+    font-size: 1.2rem;
+}
+.mar3 {
+    margin: 3%;
+}
+#header {
+    background-color: lightblue;
+    width: 80%;
+    margin: 3% auto;
+    padding: 3%;
+}
+#container {
+    background-color: lightblue;
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+}
+#left-box {
+    width: 20%;
+    height: 95%;
+    float: left;
+    background-color: rgb(9, 30, 45);
+    color: white;
+    margin: 2% 0 0 2%;
+    padding-left: 2%;
+
+}
+.picture {
+    width: 90%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 5%;
+
+}
+img {
+    -webkit-transition:-webkit-transform .9s;
+    -moz-transition:-moz-transform .9s;
+    -o-transition:-o-transform .9s;
+    -ms-transition:-ms-trasform .9s;
+    transition:transform .9s;
+}
+img:hover {
+    -webkit-transform:rotate(540deg);
+    -moz-transform:rotate(540deg);
+    -o-transform:rotate(540deg);
+    -ms-transform:rotate(540deg);
+    transform:rotate(540deg);
+}
+.marT {
+    margin-top: 5%;
+}
+#right-box {
+    width: 74%;
+    height: 95%;
+    float: right;
+    background-color: rgb(9, 30, 45);
+    color: white;
+    margin: 2% 2% 0 0;
+    padding-left: 2%;
+}
+#experiences-box {
+    text-transform: uppercase;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 15%;
+    width: 90%;
+}
+.experience {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+}
+.experience ul li {
+    list-style: none;
+    color: black;
+}
+.experience ul {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#studies-box {
+    text-transform: uppercase;
+    background-color: white;
+    margin: 0 auto;
+    width: 90%;
+}
+.study {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+}
+.study ul li {
+    list-style: none;
+    color: black;
+}
+.study ul {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
